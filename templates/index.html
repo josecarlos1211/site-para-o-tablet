@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>site tablet</title>
+        <style>
+            body {
+                background-color: lightblue;
+                font-family: Arial, sans-serif;
+                text-align: center;
+                padding: 50px;
+            }
+            h1 {
+                color: darkblue;
+            }
+            button {
+                background-color: darkblue;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            select {
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+            }
+            img {
+                width: 500px;
+                height: auto;
+            }
+            .button:hover {
+                background-color: navy;
+                box-shadow: 0 10px 20px rgba(25, 0, 255, 0.2);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>funcoes legais de html simples</h1>
+        <p>version beta</p>
+        <form action="{{ url_for('viu') }}" method="get">
+            <button class = "button" type="submit">ir para viu</button>
+        </form>
+        <input type="text" placeholder="digite algo aqui"></input>
+        <img src="https://learn.kodland.org/_nuxt/rocet.DsDB4nGg.gif" alt="GIF"></img>
+    </body>
+</html>
